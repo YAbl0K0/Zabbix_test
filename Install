@@ -18,6 +18,8 @@ echo "VAR2 = $VAR2"
 echo "$VAR1;$VAR2" > addr.txt
 
 curl -l https://raw.githubusercontent.com/YAbl0K0/Zabbix_test/main/Import_zabbix.py
+chmod +x Import_zabbix.py
+./import_zabbix.py
 
 #Install
 wget https://repo.zabbix.com/zabbix/5.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_5.4-1+ubuntu20.04_all.deb
